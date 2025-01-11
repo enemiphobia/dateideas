@@ -1,0 +1,88 @@
+:root {
+
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "rainyhearts";
+    background-color: rgb(255, 204, 206);
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    /* repeat this element for body; fixes issue on mobile */
+    overflow-x: hidden;
+
+    /*  */
+    animation: transitionIn 1s;
+    animation-timing-function: cubic-bezier(0,1.07,.51,.95);
+}
+
+h1, h2, p {
+    transition: all 0.3s ease-in-out 0s;
+    transition-timing-function: cubic-bezier(0,1.07,.51,.95);
+    overflow: visible;
+}
+
+h1:hover, h2:hover, p:hover {
+    color: black;
+}
+
+h1:focus, h2:focus, p:focus {
+    color: black;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    border-radius: 20px 40px;
+}
+
+/* i plan on doing vines for this */
+hr {
+    /* multiply height (default: 6) by the # in the sprite name */
+    height: 24px;
+    background: url("/sprites/vines 4x.png") repeat-x 0 0;
+    border: 0;
+    width: 100%;
+}
+
+/* page transition */
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+        /* transition: all 0.3s ease-in-out 0s;
+        ransition-timing-function: cubic-bezier(0,1.07,.51,.95); */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+        /* transition: all 0.3s ease-in-out 0s;
+        transition-timing-function: cubic-bezier(0,1.07,.51,.95); */
+    }
+}
+
+@-webkit-keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+        /* transition: all 0.3s ease-in-out 0s;
+        ransition-timing-function: cubic-bezier(0,1.07,.51,.95); */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+        /* transition: all 0.3s ease-in-out 0s;
+        transition-timing-function: cubic-bezier(0,1.07,.51,.95); */
+    }
+}
