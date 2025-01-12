@@ -1,6 +1,6 @@
 :root {
     --light-color: rgb(255, 204, 206);
-    --text-area-color: rgb(248, 225, 255);
+    --text-area-color: rgb(255, 225, 247);
     --dark-color: rgb(255, 146, 173);
     --dark-color-hover: rgb(230, 116, 160);
     --dark-color-active: rgb(187, 78, 151);
@@ -162,56 +162,6 @@ select {
 .chart-scale {
     margin: 0 auto;
     /* width: 50%; */
-}
-
-.btn-scale {
-    width: 60px;
-    height: 60px;
-    font-family: 'OMORIGAME2';
-    font-size: 30px;
-    border: none;
-    align-items: center;
-    /* display: flex; */
-}
-
-.btn-scale-asc-1 {
-    background-color: #33FF00;
-}
-
-.btn-scale-asc-2 {
-    background-color: #66ff00;
-}
-
-.btn-scale-asc-3 {
-    background-color: #7bff00;
-}
-
-.btn-scale-asc-4 {
-    background-color: #99FF00;
-}
-
-.btn-scale-asc-5 {
-    background-color: #CCFF00;
-}
-
-.btn-scale-asc-6 {
-    background-color: #FFFF00;
-}
-
-.btn-scale-asc-7 {
-    background-color: #FFCC00;
-}
-
-.btn-scale-asc-8 {
-    background-color: #FF9900;
-}
-
-.btn-scale-asc-9 {
-    background-color: #ff5e00;
-}
-
-.btn-scale-asc-10 {
-    background-color: #FF0000;
 }
 
 /* i plan on doing vines for this */
