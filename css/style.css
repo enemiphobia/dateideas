@@ -199,7 +199,7 @@ label {
 hr {
     /* multiply height (default: 6) by the # in the sprite name */
     height: 24px;
-    background: url("sprites/vines 4x.png") repeat-x 0 0;
+    background: url("https://enemiphobia.github.io/dateideas/sprites/vines 4x.png") repeat-x 0 0;
     border: 0;
     width: 100%;
 }
