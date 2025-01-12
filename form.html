@@ -21,7 +21,6 @@
         body {
             background-color: rgb(232, 204, 255);
         }
-        
      </style>
 
     <body>
@@ -39,11 +38,57 @@
 
         <hr>
         
-        <div>
-            <p style="font-size: 32px">Reasons why I love you</p>
+        <div class="container">
+        <form method="post"
+        action="https://script.google.com/macros/s/AKfycbwfEyPZod0drFELsPq7uPONzu_2XVHKp8vJI3wdZ7sw9XFLOxCPOUNvM1UQlsm37__oRA/exec"
+        name="date-form"
+        id="date-form">
+            <label style="font-size: 42px; margin: 25px 0" for="which_place">Which place?</label><br>
+            <!-- <input type="radio" id="mall" name="which_place" value="Mall">
+            <label for="mall">The Mall (perimeter, sugarloaf mills, etc.)</label><br>
+            <input type="radio" id="store" name="which_place" value="Store">
+            <label for="css">Store (target, B&N, etc.)</label> -->
+            <!-- <p style="font-size: 28px">Custom Suggestion</p> -->
+            <textarea name="which_place" id="which_place" rows="7" cols="40" placeholder="Write your comment here..."></textarea>
+            <label style="font-size: 42px; margin: 25px 0" for="details">Any sort of fun details?</label><br>
+            <!-- <p style="font-size: 28px">Custom Suggestion</p> -->
+            <textarea name="details" id="details" rows="7" cols="40" placeholder="Write your comment here..."></textarea>
+            <label style="font-size: 42px; margin: 25px 0" for="fits">Any fun outfits?</label><br>
+            <!-- <p style="font-size: 28px">Custom Suggestion</p> -->
+            <textarea name="fits" id="fits" rows="7" cols="40" placeholder="Write your comment here..."></textarea>
+            <label style="font-size: 42px; margin: 25px 0" for="seasons">What season?</label><br>
+            <select id="seasons" name="seasons">
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Fall">Fall</option>
+                <option value="Winter">Winter</option>
+              </select>
+            
+
+            <div class="chart-scale">
+                <label style="font-size: 42px; margin: 25px 0" for="ratings">Rate how realistic this date idea is (1-10)</label>
+                <select id="ratings" name="ratings">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    <option value="six">6</option>
+                    <option value="seven">7</option>
+                    <option value="eight">8</option>
+                    <option value="nine">9</option>
+                    <option value="ten">10</option>
+                </select>
+                <p style="font-size: 28px">1: mimi WILL beat my ass 😭🙏</p>
+                <p style="font-size: 28px">10: we could literally do it this week ✨</p>
+            </div>
+            <input style="width: 400px; height: 100px; font-size: 64px;"
+            type="submit" name="Submit" value="Submit" id="submit"><p style="font-size: 48px;">Click here to Submit</p></input>
+        </form>
         </div>
        
-
+        <script src="/js/sheets.js"></script>
         <script src="/js/script.js" async defer></script>
+        
     </body>
 </html>

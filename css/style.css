@@ -4,9 +4,9 @@
 
 html {
     scroll-behavior: smooth;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    /* -webkit-user-select: none; /* Safari */
+    /* -ms-user-select: none; /* IE 10 and IE 11 */
+    /* user-select: none; Standard syntax */
     overflow-x: hidden;
 }
 
@@ -36,15 +36,163 @@ h1:hover, h2:hover, p:hover {
 h1:focus, h2:focus, p:focus {
     color: black;
 }
-
+/* 
 .container {
     width: 500px;
     margin: 0 auto;
-}
+} */
 
-button {
+.formbtn {
+    width: 100%;
+    height: 15vw;
     border: none;
     border-radius: 20px 40px;
+    background-color: rgb(255, 146, 173);
+    font-size: 5vw;
+    font-family: 'Rainyhearts';
+    text-shadow: 3px 3px 10px black;
+
+    transition: all 0.3s ease-in-out 0s;
+    transition-timing-function: cubic-bezier(0,1.07,.51,.95);
+}
+
+.formbtn:hover {
+    font-size: 4vw;
+    background-color: rgb(230, 116, 160);
+}
+
+.formbtn:active {
+    font-size: 6vw;
+    background-color: rgb(187, 78, 151);
+}
+
+textarea {
+    background-color: rgb(248, 225, 255);
+    font-family: 'rainyhearts';
+    border: none;
+}
+
+::placeholder {
+    font-family: 'rainyhearts';
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+}
+
+label {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+/* rate 1-10 */
+
+.chart-scale {
+    margin: 0 auto;
+    /* width: 50%; */
+}
+
+.btn-scale {
+    width: 60px;
+    height: 60px;
+    font-family: 'OMORIGAME2';
+    font-size: 30px;
+    border: none;
+    align-items: center;
+    /* display: flex; */
+}
+
+.btn-scale-asc-1 {
+    background-color: #33FF00;
+}
+
+.btn-scale-asc-2 {
+    background-color: #66ff00;
+}
+
+.btn-scale-asc-3 {
+    background-color: #7bff00;
+}
+
+.btn-scale-asc-4 {
+    background-color: #99FF00;
+}
+
+.btn-scale-asc-5 {
+    background-color: #CCFF00;
+}
+
+.btn-scale-asc-6 {
+    background-color: #FFFF00;
+}
+
+.btn-scale-asc-7 {
+    background-color: #FFCC00;
+}
+
+.btn-scale-asc-8 {
+    background-color: #FF9900;
+}
+
+.btn-scale-asc-9 {
+    background-color: #ff5e00;
+}
+
+.btn-scale-asc-10 {
+    background-color: #FF0000;
 }
 
 /* i plan on doing vines for this */
