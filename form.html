@@ -12,16 +12,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="fonts/fonts.css">
-    </head>
 
-    <!-- stylesheet based on form.html
-     because i don't feel like making a
-     whole fucking file dedicated to this -->
-     <style>
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="https://enemiphobia.github.io/dateideas/sprites/favicon 16x16.ico?">
+
+        <!-- meta properties for embeds :) -->
+        <meta property="og:title" content="a website for the one">
+        <meta property="og:description" content="to the love of my life">
+        <meta property="og:url" content="https://enemiphobia.github.io/dateideas/" />
+        <meta property="og:image" content="https://enemiphobia.github.io/dateideas/sprites/favicon 16x16.png" />
+        <!-- stylesheet based on form.html
+        because i don't feel like making a
+        whole fucking file dedicated to this -->
+        <style>
         body {
             background-color: rgb(232, 204, 255);
         }
-     </style>
+        </style>
+    </head>
+
+    
 
     <body>
         <!--[if lt IE 7]>
@@ -38,25 +48,26 @@
 
         <hr>
         
-        <div class="container">
+        <div class="container" style="display: flex; justify-content: center;
+  align-items: center;">
         <form method="post"
         action="https://script.google.com/macros/s/AKfycbwfEyPZod0drFELsPq7uPONzu_2XVHKp8vJI3wdZ7sw9XFLOxCPOUNvM1UQlsm37__oRA/exec"
         name="date-form"
         id="date-form">
-            <label style="font-size: 42px; margin: 25px 0" for="which_place">Which place?</label><br>
+            <label style="font-size: 42px; margin: 25px 0" for="which_place">1. Which place?</label><br>
             <!-- <input type="radio" id="mall" name="which_place" value="Mall">
             <label for="mall">The Mall (perimeter, sugarloaf mills, etc.)</label><br>
             <input type="radio" id="store" name="which_place" value="Store">
             <label for="css">Store (target, B&N, etc.)</label> -->
             <!-- <p style="font-size: 28px">Custom Suggestion</p> -->
             <textarea name="which_place" id="which_place" rows="7" cols="40" placeholder="Write your comment here..."></textarea>
-            <label style="font-size: 42px; margin: 25px 0" for="details">Any sort of fun details?</label><br>
+            <label style="font-size: 42px; margin: 25px 0" for="details">2. Any sort of fun details?</label><br>
             <!-- <p style="font-size: 28px">Custom Suggestion</p> -->
             <textarea name="details" id="details" rows="7" cols="40" placeholder="Write your comment here..."></textarea>
-            <label style="font-size: 42px; margin: 25px 0" for="fits">Any fun outfits?</label><br>
+            <label style="font-size: 42px; margin: 25px 0" for="fits">3. Any fun outfits?</label><br>
             <!-- <p style="font-size: 28px">Custom Suggestion</p> -->
             <textarea name="fits" id="fits" rows="7" cols="40" placeholder="Write your comment here..."></textarea>
-            <label style="font-size: 42px; margin: 25px 0" for="seasons">What season?</label><br>
+            <label style="font-size: 42px; margin: 25px 0" for="seasons">4. What season?</label><br>
             <select id="seasons" name="seasons">
                 <option value="Spring">Spring</option>
                 <option value="Summer">Summer</option>
@@ -66,7 +77,7 @@
             
 
             <div class="chart-scale">
-                <label style="font-size: 42px; margin: 25px 0" for="ratings">Rate how realistic this date idea is (1-10)</label>
+                <label style="font-size: 42px; margin: 25px 0" for="ratings">5. Rate how realistic this date idea is (1-10)</label>
                 <select id="ratings" name="ratings">
                     <option value="one">1</option>
                     <option value="two">2</option>
@@ -79,11 +90,11 @@
                     <option value="nine">9</option>
                     <option value="ten">10</option>
                 </select>
-                <p style="font-size: 28px">1: mimi WILL beat my ass 😭🙏</p>
+                <p style="font-size: 28px">1: mimi + my parents WILL beat my ass 😭🙏</p>
                 <p style="font-size: 28px">10: we could literally do it this week ✨</p>
             </div>
             <input style="width: 400px; height: 100px; font-size: 64px;"
-            type="submit" name="Submit" value="Submit" id="submit"><p style="font-size: 48px;">Click here to Submit</p></input>
+            type="submit" name="Submit" value="Submit" id="submit"><p style="font-size: 48px;">Click here to Submit!</p></input>
         </form>
         </div>
        
