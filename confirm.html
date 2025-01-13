@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>&lt;3</title>
+        <meta name="description" content="por mi amor">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="https://enemiphobia.github.io/dateideas/sprites/favicon 16x16.ico?">
+
+        <!-- meta properties for embeds :) -->
+        <meta property="og:title" content="a website for the one">
+        <meta property="og:description" content="to the love of my life">
+        <meta property="og:url" content="https://enemiphobia.github.io/dateideas/" />
+        <meta property="og:image" content="https://enemiphobia.github.io/dateideas/sprites/favicon 16x16.png" />
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <hr>
+        <header>
+            
+            <h1 style="text-align: center; font-size: 80px; margin-bottom: 5px;">New Submission! 🎀</h1>
+            <h2 style="text-align: center; font-size: 32px; padding: 0 10vw;">
+                <a href="https://docs.google.com/spreadsheets/d/1nHBkQSk2CeWgVy5q-n3mKISnyF4Wr08wBzJ3IB_OxLk" target="_blank">
+                Click here</a>
+                to access the form data!
+            </h2>
+            <p style="font-size: 32px; text-align: center;"></p>
+        </header>
+
+        <hr>
+        
+        <div>
+            <h2 id="date" style="text-align: center; font-size: 32px; padding: 0 10vw;"></h2>
+        </div>
+
+        <script>
+            let dateText = document.getElementById("date");
+            let d = new Date();
+
+            dateText.innerHTML = (d.getMonth()+1) + "/" + d.getDate() + "/" + d.getFullYear();
+        </script>
+        <script src="js/script.js" async defer></script>
+    </body>
+</html>
