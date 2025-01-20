@@ -227,7 +227,7 @@ hr {
 
 .parallax {
     /* The image used */
-  background-image: url("/sprites/bg_image.gif");
+  background-image: url("https://enemiphobia.github.io/dateideas/sprites/bg_image.gif");
 
   /* Full height */
   height: 100%;
