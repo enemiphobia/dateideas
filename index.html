@@ -39,12 +39,12 @@
         <hr>
         <!-- source: https://wifflegif.com/tags/150220-pink-pixels-gifs?page=0 -->
         <div class="parallax">
-            <p id="date" style="font-size: 64px; text-align: center; margin: 30px 0; padding: 20px 0;"></p>
+            <p id="date" style="font-size: 64px; text-align: center; margin: 30px 0; padding: 100px 0 10px;"></p>
             <p style="font-size: 32px; text-align: center; padding: 100px 0">just a girl 🎀</p>
         </div>
 
         <hr>
-            <button class="formbtn" onclick="location.href='https://enemiphobia.github.io/dateideas/form.html'">
+            <button class="formbtn" onclick="transitionToPage('/dateideas/form.html')">
                 Fill out a date form here!
             </button>
             <br><br><br>
@@ -53,17 +53,27 @@
                 You can also rate how realistic the date idea is too :)</p>
             <br><br>
         <hr>
-
+        
+        <p style="font-size: 32px; margin: 20px 0; text-align: center;">silly cats from my pinterest board :)</p>
         <aside>
-            <p style="font-size: 32px; margin: 20px 0; text-align: center;">silly cats from my pinterest board :)</p>
+            <br>
             <iframe 
             width="75%"
             height="600px"
-            style="border: none; align-self: center; margin: auto; display: flex;"
+            style="border: none; align-self: center; margin: auto;"
             src="https://petracoding.github.io/pinterest/board.html?link=enemiphobia/silly-cars/&hideHeader=1&hideFooter=1&transparent=0">
             </iframe>
+            
+        </aside>
+        <hr>
+        
+        <aside>
+            <embed src="txt/poem.txt"></embed>
         </aside>
 
+        
+
         <script src="js/script.js" async defer></script>
+        <script src="js/transition.js"></script>
     </body>
 </html>
