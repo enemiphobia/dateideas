@@ -280,4 +280,12 @@ hr {
     .parallax {
       background-attachment: scroll;
     }
-  } 
+  }
+
+.brainstorm {
+    align-self: center;
+    align-items: center;
+    margin: auto;
+    border-style: none;
+    display: block;
+}
