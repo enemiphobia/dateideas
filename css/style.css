@@ -288,4 +288,7 @@ hr {
     margin: auto;
     border-style: none;
     display: block;
+    width: 50%;
+    scrollbar-color: var(--dark-color);
+    scrollbar-width: thin;
 }
